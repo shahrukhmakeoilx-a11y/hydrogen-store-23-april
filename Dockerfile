@@ -12,5 +12,6 @@ EXPOSE 3000
 
 ENV PORT=3000
 ENV HOST=0.0.0.0
+ENV NODE_ENV=production
 
-CMD ["node", "dist/server/index.js"]
+CMD ["node", "--experimental-vm-modules", "dist/server/index.js"]
