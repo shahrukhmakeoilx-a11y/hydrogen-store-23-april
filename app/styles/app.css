@@ -643,3 +643,52 @@ button.reset:hover:not(:has(> *)) {
   gap: 0.75rem;
   flex-wrap: wrap;
 }
+
+
+
+.filters {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.filter-item label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.filter-item select,
+.filter-item input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  min-width: 140px;
+}
+
+.price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.apply-btn {
+  background: black;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.apply-btn:hover {
+  background: #333;
+}
