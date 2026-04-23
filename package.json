@@ -10,7 +10,7 @@
     "preview": "shopify hydrogen preview --build",
     "lint": "eslint --no-error-on-unmatched-pattern .",
     "codegen": "shopify hydrogen codegen && react-router typegen",
-    "vercel-build": "shopify hydrogen build --codegen"
+    "vercel-build": "shopify hydrogen build --codegen && cp -r dist/server dist/build"
   },
   "prettier": "@shopify/prettier-config",
   "dependencies": {

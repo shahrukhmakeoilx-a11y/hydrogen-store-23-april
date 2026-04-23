@@ -1,13 +1,3 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/assets/(.*)",
-      "dest": "/dist/client/assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/dist/server/index.js"
-    }
-  ]
+  "outputDirectory": "dist"
 }
